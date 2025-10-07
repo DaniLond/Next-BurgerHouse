@@ -9,7 +9,6 @@ RUN npm ci --legacy-peer-deps || npm install --legacy-peer-deps
 COPY . .
 RUN npm run build
 
-# Production stage
 FROM node:22-alpine
 
 WORKDIR /app
