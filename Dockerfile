@@ -1,4 +1,4 @@
-# Etapa 1: build
+# build
 FROM node:22-alpine AS builder
 
 WORKDIR /app
